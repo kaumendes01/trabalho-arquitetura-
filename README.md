@@ -2,7 +2,7 @@
 
 Aplicação desktop desenvolvida em Java para gerenciamento de pedidos de uma lanchonete, aplicando na prática três padrões de projeto do catálogo **GoF (Gang of Four)**.
 
-- **Aluno:** Kauã Foscarini
+- **Aluno:** Kauã Foscarini Mendes
 - **Curso:** Tecnologia em Análise e Desenvolvimento de Sistemas (TADS) — Univel
 - **Disciplinas:** Arquitetura de Software (Prof. Eder) & Programação Orientada a Objetos (Prof.ª Célia)
 
@@ -36,6 +36,6 @@ Aplicação desktop desenvolvida em Java para gerenciamento de pedidos de uma la
 │   └── DOCUMENTACAO.md          # Documentação detalhada e diagramas UML
 └── src/lanchonete/
     ├── adapter/                 # Pagamento, PagamentoPix, PagamentoDinheiro, PagamentoCartaoAdapter, GatewayExterno
-    ├── app/                     # MainJanela (interface Swing) e classes Main
+    ├── app/                     # MainJanela (interface Swing)
     ├── decorator/               # Item, Lanche, ItemDecorator, Queijo, Bacon, Molho
     └── modelo/                  # Pedido e Pedido.Builder
